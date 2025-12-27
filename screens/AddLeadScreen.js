@@ -23,7 +23,6 @@ export default function AddLeadScreen({ navigation, leads, setLeads }) {
 
     setLeads([...leads, newLead]);
 
-    // Clear form after saving
     setName("");
     setEmail("");
     setPhone("");
